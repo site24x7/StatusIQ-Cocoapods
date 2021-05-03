@@ -1,4 +1,4 @@
-# StatusIQ-iOS-Pod
+# StatusIQ-Cocoapods
 Enterprises using StatusIQ, can integrate the iOS SDK in their Business app to showcase their public page availabilites
 With mobiles and efficient business applications users can carry out all their transactions anywhere at anytime.Business services across the globe are now offering mobile applications to their users. With the growing popularity of mobile applications, it is crucial to provide real-time updates on service availability through these platforms. This can definitely help users to act proactively and tackle incidents easily.
 
