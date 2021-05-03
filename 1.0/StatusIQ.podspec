@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
   s.version      = "4.0"
   s.summary      = "StatusIQ"
 
-  s.homepage = "https://git.csez.zohocorpin.com/site24x7/statusiq-ios-sdk.git"
+  s.homepage = "https://github.com/site24x7/StatusIQ-iOS-SDK.git"
   s.description  = "description"
-  s.license      = { :type => "MIT", :text=> <<-LICENSE
-  MIT License
+  s.license      = { :type => "Apache", :text=> <<-LICENSE
+  Apache License
 
   Copyright (c) 2021, ZOHO CORPORATION PRIVATE LIMITED
   All rights reserved.
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
 }
   #support email-id -  support@site24x7.com
-  s.author       = { "nandhini guru" => "nandhini.guru@zohocorp.com" }
+  s.author       = { "nandhini guru" => "nandhini.guru@zohocorp.com" ,"Muralikrishnan" => "muralikrishnan@zohocorp.com"}
   s.ios.deployment_target = '10.0'
 
   s.frameworks = 'UIKit','Foundation', 'CoreMedia'
@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = { 'StatusIQBundle' => ['native/StatusIQFramework/*.{plist,xib,storyboard,xcassets}']}
 
 
-  s.source       = { :git => "https://git.csez.zohocorpin.com/site24x7/statusiq-ios-sdk.git", :tag => s.version.to_s} # commit ID from Authkey support
+  s.source       = { :git => "https://github.com/site24x7/StatusIQ-iOS-SDK.git", :tag => s.version.to_s} # commit ID from Authkey support
 
   s.module_name  = 'StatusIQ'
   s.requires_arc = true
