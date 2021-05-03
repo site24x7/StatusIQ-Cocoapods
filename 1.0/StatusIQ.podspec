@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "StatusIQ"
-  s.version      = "4.0"
+  s.version      = "1.0"
   s.summary      = "StatusIQ"
 
   s.homepage = "https://github.com/site24x7/StatusIQ-iOS-SDK.git"
